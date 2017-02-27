@@ -15,6 +15,7 @@
 		F82A036D1E4B780200F389CB /* CollageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A036C1E4B780200F389CB /* CollageAppTests.swift */; };
 		F82A03781E4B780200F389CB /* CollageAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A03771E4B780200F389CB /* CollageAppUITests.swift */; };
 		F82A03861E4B78A600F389CB /* CollegeProfileBuilder1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F82A03851E4B78A600F389CB /* CollegeProfileBuilder1.pdf */; };
+		F89D3AE71E5F418B00108743 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89D3AE61E5F418B00108743 /* DetailViewController.swift */; };
 		F8BE61771E4CD20A00FCA3F7 /* CollageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE61761E4CD20A00FCA3F7 /* CollageClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		F82A03771E4B780200F389CB /* CollageAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageAppUITests.swift; sourceTree = "<group>"; };
 		F82A03791E4B780200F389CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82A03851E4B78A600F389CB /* CollegeProfileBuilder1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CollegeProfileBuilder1.pdf; sourceTree = "<group>"; };
+		F89D3AE61E5F418B00108743 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F8BE61761E4CD20A00FCA3F7 /* CollageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollageClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				F82A03571E4B780200F389CB /* AppDelegate.swift */,
+				F8BE61761E4CD20A00FCA3F7 /* CollageClass.swift */,
+				F89D3AE61E5F418B00108743 /* DetailViewController.swift */,
 				F82A03591E4B780200F389CB /* ViewController.swift */,
 				F82A035B1E4B780200F389CB /* Main.storyboard */,
-				F8BE61761E4CD20A00FCA3F7 /* CollageClass.swift */,
 				F82A035E1E4B780200F389CB /* Assets.xcassets */,
 				F82A03601E4B780200F389CB /* LaunchScreen.storyboard */,
 				F82A03631E4B780200F389CB /* Info.plist */,
@@ -268,6 +271,7 @@
 			files = (
 				F82A035A1E4B780200F389CB /* ViewController.swift in Sources */,
 				F82A03581E4B780200F389CB /* AppDelegate.swift in Sources */,
+				F89D3AE71E5F418B00108743 /* DetailViewController.swift in Sources */,
 				F8BE61771E4CD20A00FCA3F7 /* CollageClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
